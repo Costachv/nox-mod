@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "nox",
+  "version": "${version}",
+  "name": "Nox Companion",
+  "description": "Um outro player controlado por IA. Ele conversa, ajuda... e se você irritar ele, ele não esquece.",
+  "authors": ["voce"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.nox.NoxMod"],
+    "client": ["com.nox.client.NoxClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
